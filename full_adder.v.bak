@@ -1,0 +1,32 @@
+/*================================================
+						FULL ADDER
+==================================================
+
+Description:
+	This is a full_adder using gate level modeling.
+
+Design Engineer:
+    Galagate, Rica G.
+
+Date:
+    15 April 2026
+------------------------------------------------*/
+module full_adder(sum,cout,cin,A,B);
+    // ports
+    input  A;
+    input  B;
+	 input  cin;
+    output sum;
+	 output cout;
+
+    // nets
+    wire w1,w2,w3;
+
+    // full adder
+	 xor u1(w1, A, B);
+	 xor u2(sum, w1, cin);
+	 and u3(w2, w1, cin);
+	 or u4(cout, w2, w3);
+	 and u5(w3, A, B);
+	 
+endmodule

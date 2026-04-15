@@ -1,0 +1,28 @@
+# Compile of full_adder.v was successful.
+# Compile of full_adder_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.full_adder_testbench
+# vsim work.full_adder_testbench 
+# Start time: 13:58:41 on Apr 15,2026
+# Loading work.full_adder_testbench
+# Loading work.full_adder
+add wave -position end  sim:/full_adder_testbench/a
+add wave -position end  sim:/full_adder_testbench/b
+add wave -position end  sim:/full_adder_testbench/cin
+add wave -position end  sim:/full_adder_testbench/sum
+add wave -position end  sim:/full_adder_testbench/cout
+add wave -position end  sim:/full_adder_testbench/a
+add wave -position end  sim:/full_adder_testbench/b
+add wave -position end  sim:/full_adder_testbench/cin
+add wave -position end  sim:/full_adder_testbench/sum
+add wave -position end  sim:/full_adder_testbench/cout
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo2_FA/wave.do
+# End time: 14:22:14 on Apr 15,2026, Elapsed time: 0:23:33
+# Errors: 0, Warnings: 1

@@ -1,0 +1,15 @@
+C:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo2_FA/full_adder_testbench.v {1 {vlog -work work -stats=none C:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo2_FA/full_adder_testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module full_adder_testbench
+
+Top level modules:
+	full_adder_testbench
+
+} {} {}} C:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo2_FA/full_adder.v {1 {vlog -work work -stats=none C:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo2_FA/full_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}}
