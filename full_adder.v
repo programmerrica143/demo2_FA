@@ -9,7 +9,7 @@ Design Engineer:
     Galagate, Rica G.
 
 Date:
-    15 April 2026
+    16 April 2026
 ------------------------------------------------*/
 module full_adder(sum,cout,cin,A,B);
     // ports
