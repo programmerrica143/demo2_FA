@@ -19,14 +19,8 @@ module full_adder(sum,cout,cin,A,B);
     output sum;
 	 output cout;
 
-    // nets
-    wire w1,w2,w3;
-
     // full adder
-	 xor u1(w1, A, B);
-	 xor u2(sum, w1, cin);
-	 and u3(w2, w1, cin);
-	 and u4(w3, A, B);
-	 or  u5(cout, w2, w3);
+	 assign  sum = (A ^ B) ^ cin;
+	 assign cout = ((A ^ B) & cin) + (A & B);
 	 
 endmodule

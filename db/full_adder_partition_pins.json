@@ -12,15 +12,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "cin",
-					"strict" : false
-				},
-				{
 					"name" : "A",
 					"strict" : false
 				},
 				{
 					"name" : "B",
+					"strict" : false
+				},
+				{
+					"name" : "cin",
 					"strict" : false
 				}
 			]

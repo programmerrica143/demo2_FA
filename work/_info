@@ -10,46 +10,46 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo1_XOR
 vfull_adder
-Z0 !s110 1776232683
+!s110 1776433053
 !i10b 1
-!s100 b76Vl^SN2h;[Jm:f8:_L52
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IKT60zlgQ32>T2I=W4i9a42
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo2_FA
-w1776231679
+!s100 ilogO6XK5k>bVOjSKN]9>1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[lCEOj0]:^ZEAC398HbBF0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo2_FA
+w1776432736
 8C:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo2_FA/full_adder.v
 FC:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo2_FA/full_adder.v
-!i122 0
-L0 14 19
-Z4 OV;L;2020.1;71
+!i122 2
+L0 14 13
+Z3 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1776232682.000000
+Z4 !s108 1776433053.000000
 !s107 C:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo2_FA/full_adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo2_FA/full_adder.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
 vfull_adder_testbench
-R0
+!s110 1776433054
 !i10b 1
-!s100 Qem9R@_`25`KEz7]W4W^L0
+!s100 ZCiGMQmhIV6_KJ=?@1o3P2
+R0
+IM_jdDG9PUROY84M8:aNCm1
 R1
-I21V4@aLjH;UUC>0@ST2N30
 R2
-R3
-w1776232334
+w1776432999
 8C:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo2_FA/full_adder_testbench.v
 FC:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo2_FA/full_adder_testbench.v
-!i122 1
+!i122 3
 L0 14 32
-R4
+R3
 r1
 !s85 0
 31
-!s108 1776232683.000000
+R4
 !s107 C:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo2_FA/full_adder_testbench.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/intelFPGA_lite/20.1/quartus/FPGA_demo/demo2_FA/full_adder_testbench.v|
 !i113 1
